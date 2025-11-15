@@ -2,15 +2,18 @@ package main
 
 import "fmt"
 
-func main() {
-	// initialize variables here
-	var smsSendingLimit int
+func main(){
+	var apple int
+	apple = 11
 
-	var costPerSMS float64
+	var mango float64
+	mango = 11.22
 
-	var hasPermission bool
+	var lichi bool
+	lichi = true
 
-	var username string
+	var pine string
+	pine = "rose"
 
-	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
+	fmt.Printf("%v %.2f  %v  %q\n", apple, mango, lichi, pine)
 }
