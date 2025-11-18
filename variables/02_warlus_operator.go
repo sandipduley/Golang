@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	fruit := "apple"
 	price := 11.22
 	quantity := 33
