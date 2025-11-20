@@ -1,0 +1,12 @@
+Slices are also used to store multiple value of the same type in a single variable, however unline arrays, the length of a slice can grow and shrink.
+
+Ways to create
+1. Using the []datatype{values} format
+2. Create a slice from an array
+3. Using the make function
+
+
+Make()
+
+The make function will create a zerod array and return a slice referencing an array. This is a great way to create a dynamically sized array.
+To create a slice using the make function, we need to specify three arguments :- type  length  capacity 
