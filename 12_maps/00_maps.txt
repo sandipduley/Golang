@@ -1,0 +1,17 @@
+Maps are aa data structure which allow us to store data values i  key:value pairs.
+
+A map is an unordered and changeable collection that does not allow duplicates.
+
+The ddefault value of map is nil.
+
+fruit := map[string]int{
+    "apple": 11,
+    "mango": 22,
+    "banana": 33,
+}
+
+fmt.Println(fruit)
+fruit["pineapple"] = 15
+fmt.Println(fruit["apple"])
+fmt.Println(fruit["mango"])
+fmt.Println(fruit["banana"])
