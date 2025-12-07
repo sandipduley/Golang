@@ -1,0 +1,4 @@
+A methods is a function associated with a particular type. It is  a way to define behavious for a specific type. In Go methods are decalred with a reciever,
+which is a special type of parametrs that appears in the method signature. 
+
+The reciever indicates on which type the method operates.
