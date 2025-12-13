@@ -19,5 +19,5 @@ func main() {
 	fmt.Scan(&quantity)
 
 	totalAmount := quantity * perPiecePrice
-	fmt.Println(totalAmount)
+	fmt.Println("Total amount is:- ", totalAmount)
 }
